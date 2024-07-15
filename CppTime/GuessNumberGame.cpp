@@ -41,7 +41,7 @@ void play(int randnum) {
             cout << "\nYou won! But it's not going to make me a loser.\n\n\n\n";
             break;
         } else if (i == 0 && userinput != randnum) {
-            cout << "\nYou loser Boy!! you lost all of your attempts. hahahaha...";
+            cout << "\nYou loser Boy!! you lost all of your attempts.";
             cout << "\nHowever, this was my number : " << randnum << "\n\n\n\n";
             break;
         }
